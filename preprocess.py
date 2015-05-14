@@ -341,7 +341,7 @@ if __name__ == "__main__":
     import waveio
 
     # Get signal from .wav file
-    raw, FS = waveio.wave_from_file("/home/magodo/code/voiceMaterial/7a.wav")
+    raw, FS = waveio.wave_from_file("voiceMaterial/lemon1.wav")
     # Define Consts
     WLEN = 256.0 / FS
     INC = 128.0 / FS

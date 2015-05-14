@@ -122,7 +122,7 @@ if __name__ == "__main__":
     import waveio
 
     # Get signal from .wav file
-    signal, FS = waveio.wave_from_file("/home/magodo/code/voiceMaterial/word/strawberry1.wav")
+    signal, FS = waveio.wave_from_file("voiceMaterial/strawberry1.wav")
     # MFCC
     feature = mfcc(signal, FS, endpoint = True)
     print feature

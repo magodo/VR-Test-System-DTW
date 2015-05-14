@@ -14,7 +14,7 @@ from mfcc import mfcc
 from dtw import dtw
 from time import time
 
-voice_dir = "/home/magodo/code/voiceMaterial/word"
+voice_dir = "voiceMaterial"
 templates = ["strawberry", "apple", "beef", "egg", "lemon", "mushroom", "noodle", "orange", "spaghetti", "spam", "watermelon"]
 test = "mushroom"
 
